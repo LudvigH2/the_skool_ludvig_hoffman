@@ -1,0 +1,32 @@
+-- Tabell for MYH:s ansokningar 2025
+
+CREATE TABLE myh_2025 (
+    utbildningsomrade VARCHAR2(200),
+    sun5_inriktning VARCHAR2(100),
+    sun5_inriktning_namn VARCHAR2(200),
+    utbildningsnamn VARCHAR2(300),
+    beslut VARCHAR2(50),
+    diarienummer VARCHAR2(100),
+    flera_kommuner VARCHAR2(50),
+    antal_kommuner VARCHAR2(50),
+    lan VARCHAR2(100),
+    kommun VARCHAR2(100),
+    yh_poang VARCHAR2(50),
+    studieform VARCHAR2(50),
+    studietakt_procent VARCHAR2(50),
+    examenstyp VARCHAR2(100),
+    seqf_niva VARCHAR2(50),
+    smalt_yrkesomrade VARCHAR2(200),
+    utbildningsanordnare VARCHAR2(300),
+    huvudmannatyp VARCHAR2(100),
+    sokta_utbildningsomgangar VARCHAR2(50),
+    beviljade_utbildningsomgangar VARCHAR2(50),
+    sokta_platser_per_omgang VARCHAR2(50),
+    sokta_platser_totalt VARCHAR2(50),
+    beviljade_platser_omgang_1 VARCHAR2(50),
+    beviljade_platser_omgang_2 VARCHAR2(50),
+    beviljade_platser_omgang_3 VARCHAR2(50),
+    beviljade_platser_omgang_4 VARCHAR2(50),
+    beviljade_platser_omgang_5 VARCHAR2(50),
+    beviljade_platser_totalt VARCHAR2(50)
+);
